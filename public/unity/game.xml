@@ -162,28 +162,32 @@
                 <x niveau="1" val="0a4" />
                 <x niveau="25" val="0a2" />
                 <x niveau="50" val="0a01" />
-                <x niveau="100" val="0a0" />
+                <x niveau="100" val="0a1" />
+                <x niveau="205" val="0a0" />
             </force>
             <vitesse>
-                <x niveau="0" val="15a5" />
+                <x niveau="0" val="12a5" />
                 <x niveau="1" val="0a5" />
                 <x niveau="25" val="0a2" />
-                <x niveau="50" val="0a05" />
+                <x niveau="50" val="0a1" />
                 <x niveau="100" val="0a0" />
+                <x niveau="205" val="0a0" />
             </vitesse>
             <vie>
                 <x niveau="0" val="84" />
                 <x niveau="1" val="8" />
                 <x niveau="25" val="5" />
-                <x niveau="50" val="1" />
-                <x niveau="100" val="0" />
+                <x niveau="50" val="8" />
+                <x niveau="100" val="10" />
+                <x niveau="205" val="0" />
             </vie>
             <chakra>
                 <x niveau="0" val="140" />
-                <x niveau="1" val="12" />
+                <x niveau="1" val="4" />
                 <x niveau="25" val="8" />
-                <x niveau="50" val="4" />
-                <x niveau="100" val="0" />
+                <x niveau="50" val="12" />
+                <x niveau="100" val="16" />
+                <x niveau="205" val="0" />
             </chakra>
         </capacite>
         <aptitude>
@@ -194,7 +198,7 @@
                 <x niveau="8" degat="5" rayon="0a13" chakra="1" />
                 <x niveau="12" degat="3" rayon="0a07" chakra="1" />
                 <x niveau="16" degat="2" rayon="0a016" chakra="1" />
-                <x niveau="30" degat="1" rayon="0a0" chakra="0" />
+                <x niveau="30" degat="1" rayon="0a016" chakra="0" />
                 <x niveau="100" degat="0" rayon="0a0" chakra="0" />
             </bouleElementaire>
             <doubleSaut niveau="5" limit="">
@@ -204,7 +208,7 @@
                 <x niveau="8" saut1="0a008" saut2="0a03" />
                 <x niveau="12" saut1="0a005" saut2="0a01" />
                 <x niveau="16" saut1="0a002" saut2="0a008" />
-                <x niveau="30" saut1="0" saut2="0" />
+                <x niveau="30" saut1="0a002" saut2="0a008" />
                 <x niveau="100" saut1="0" saut2="0" />
             </doubleSaut>
             <bouclierElementaire niveau="10" limit="">
@@ -214,7 +218,7 @@
                 <x niveau="8" reduction="0a012" chakra="1" last="0a5" />
                 <x niveau="12" reduction="0a01" chakra="1" last="0a5" />
                 <x niveau="16" reduction="0a006" chakra="1" last="0a5" />
-                <x niveau="30" reduction="0a0" chakra="0" last="0a0" />
+                <x niveau="30" reduction="0a006" chakra="1" last="0a5" />
                 <x niveau="100" reduction="0a0" chakra="0" last="0a0" />
             </bouclierElementaire>
             <marcherMur niveau="15" limit="">
@@ -222,19 +226,9 @@
                 <x niveau="1" chakra="1" last="0a8" />
                 <x niveau="8" chakra="0" last="0a6" />
                 <x niveau="16" chakra="0" last="0a4" />
-                <x niveau="30" chakra="0" last="0a0" />
+                <x niveau="30" chakra="0" last="0a4" />
                 <x niveau="100" chakra="0" last="0a0" />
             </marcherMur>
-            <acierRenforce niveau="20" limit="">
-                <x niveau="0" degat="0a2" last="5a0" chakra="30"  />
-                <x niveau="1" degat="0a05" last="3a0" chakra="15" />
-                <x niveau="4" degat="0a03" last="2a0" chakra="10" />
-                <x niveau="8" degat="0a02" last="1a5" chakra="7" />
-                <x niveau="12" degat="0a01" last="1a0" chakra="3" />
-                <x niveau="16" degat="0a005" last="0a5" chakra="2" />
-                <x niveau="30" degat="0a001" last="0a2" chakra="1" />
-                <x niveau="100" degat="0" last="0a0" chakra="0" />
-            </acierRenforce>
             <deflagrationElementaire niveau="25" limit="">
                 <x niveau="0" degat="35" rayon="15a0" chakra="38" />
                 <x niveau="1" degat="7" rayon="3a0" chakra="10" />
@@ -291,7 +285,7 @@
                 <x niveau="8" speed="0a01" last="1a5" chakra="7"/>
                 <x niveau="12" speed="0a005" last="1a0" chakra="3"/>
                 <x niveau="16" speed="0a0025" last="0a5" chakra="2"/>
-                <x niveau="30" speed="0a0" last="0a1" chakra="1"/>
+                <x niveau="30" speed="0a0025" last="0a1" chakra="1"/>
                 <x niveau="100" speed="0a0" last="0a0" chakra="0"/>
             </multishoot>
             <invisibleman niveau="20" limit="359">
@@ -301,7 +295,7 @@
                 <x niveau="8" opacity="2a0" last="1a5" />
                 <x niveau="12" opacity="1a0" last="1a0" />
                 <x niveau="16" opacity="0a5" last="0a5" />
-                <x niveau="30" opacity="0a0" last="0a1" />
+                <x niveau="30" opacity="0a2" last="0a1" />
                 <x niveau="100" opacity="0a0" last="0a0" />
             </invisibleman>
             <phoenix niveau="45" limit="355">
